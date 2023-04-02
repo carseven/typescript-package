@@ -1,6 +1,6 @@
 {
   "name": "@carseven/typescript-package",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Template for generating typescript packages",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -13,7 +13,7 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run ci && changeset publish"
   },
-  "author": "Carles Sera <carles.serra@hotmail.es>",
+  "author": "Carles Serra <carles.serra@hotmail.es>",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
