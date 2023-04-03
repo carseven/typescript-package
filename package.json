@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
@@ -13,7 +16,20 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run ci && changeset publish"
   },
-  "author": "Carles Serra <carles.serra@hotmail.es>",
+  "author": {
+    "name": "Carles Serra",
+    "email": "carles.serra@hotmail.es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carseven/typescript-package"
+  },
+  "bugs": {
+    "url": "https://github.com/carseven/typescript-package/issues"
+  },
+  "keywords": [
+    "typescript"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
