@@ -1,5 +1,11 @@
 # @carseven/typescript-package
 
+## 0.0.4
+
+### Patch Changes
+
+- 55bbeb3: Add more info to package.json
+
 ## 0.0.3
 
 ### Patch Changes
