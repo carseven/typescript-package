@@ -4,3 +4,4 @@ src
 test
 CHANGELOG.md
 tsconfig.json
+package.json
