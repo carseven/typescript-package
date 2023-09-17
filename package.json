@@ -17,7 +17,8 @@
         "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
         "compile": "tsc",
         "ci": "pnpm run compile && pnpm run lint && pnpm run format && pnpm run test && pnpm run build",
-        "release": "pnpm run ci && changeset publish"
+        "release": "pnpm run ci && changeset publish",
+        "release:pr": "changeset"
     },
     "author": {
         "name": "Carles Serra",
