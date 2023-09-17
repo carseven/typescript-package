@@ -10,6 +10,7 @@
     ],
     "scripts": {
         "tsc:performance": "tsc --extendedDiagnostics",
+        "tsc:trace": "tsc --p tsconfig.trace.json --generateTrace trace && npx @typescript/analyze-trace trace || echo 0",
         "dev": "vitest",
         "test": "vitest run",
         "build": "tsup src/index.ts --format cjs,esm --dts",
