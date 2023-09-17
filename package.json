@@ -9,6 +9,7 @@
         "dist"
     ],
     "scripts": {
+        "tsc:performance": "tsc --extendedDiagnostics",
         "dev": "vitest",
         "test": "vitest run",
         "build": "tsup src/index.ts --format cjs,esm --dts",
